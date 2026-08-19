@@ -58,7 +58,10 @@ fn calculation() {
         println!("{first_number} / {second_number} = {output}");
         }
         else if second_number == 0 {
-        println!("divide by zero error")
+        println!("divide by zero error");
         }
+        }
+        else {
+        println!("invalid characters please use 0-9 for numbers and +,-,*,/ for opperators");
         }
 }
