@@ -1,0 +1,8 @@
+[package]
+name = "calculatormk2"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gcd = "2.3.0"
+num-integer = "0.1.47"
